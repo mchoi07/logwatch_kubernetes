@@ -39,7 +39,7 @@ RUN cd /home \
  && export LC_ALL=en_US.utf8 \ 
  && echo "All Environments have been set up"
 
-ENV SLACK_API_TOKEN "xoxb-627883246647-627891112951-ozRkI5Nz8tJR7MyPr90mqG2C"
+ENV SLACK_API_TOKEN " "
 
 # Set up the starting sh file 
 COPY start.sh /home/slack_bot/start.sh 
